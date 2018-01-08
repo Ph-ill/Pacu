@@ -1,0 +1,10 @@
+{
+    "name": "maint-app",
+    "version": "0.0.1",
+    "description": "Maint New Job Server App",
+    "dependencies": {
+        "express": "^4.15.2",
+        "mssql": "^4.1.0",
+        "socket.io": "^2.0.4"
+    }
+}

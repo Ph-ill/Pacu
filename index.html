@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Work Orders - Non Priority</title>
+</head>
+<link href="/public/css/style.css" rel="stylesheet" type="text/css">
+<script src="/socket.io/socket.io.js"></script>
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/js.js"></script>
+<script defer src="/public/js/fontawesome-all.js"></script>
+<body>
+    <div id="fidgetspinner">
+        <i class="fas fa-cog fa-spin fa-10x"></i>
+    </div>
+    <div id="infobuttoncontainer">
+        <div id="infobutton">
+            <i class="fas fa-bookmark fa-10x"></i>
+                <div id="infoglyph">
+                    <i class="fas fa-info-circle fa-4x"></i>            
+                </div>
+        </div>
+    </div>
+    <div id="infodiv">
+        <!--<div id="infotext">
+            <h>Legend</h>
+        </div>-->
+        <div id="legendworkorder1">
+            <div id="legendworkordertext">Awaiting Approval</div>    
+        </div>          
+        <div id="legendworkorder2">
+                <div id="legendworkordertext">New</div>    
+            </div>          
+        <div id="legendworkorder3">
+            <div id="legendworkordertext">Scheduled</div>    
+        </div>          
+        <div id="legendworkorder4">
+                <div id="legendworkordertext">In Progress</div>    
+            </div>          
+        <div id="legendworkorder5">
+            <div id="legendworkordertext">On Hold</div>    
+        </div>                  
+    </div>
+    <div id="titlebar">
+        
+    </div>
+    <div id="pagewrapper">
+        <div class="jobdivouterclass" id="jobdivouter">
+            <div id="jobdivinner">
+                <div id="JobTitle"></div>
+                <div id="JobTime"></div>
+                <div id="JobDesc"></div>
+                <div id="JobAuthor"></div>
+                <div id="JobEntity"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
