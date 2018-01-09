@@ -65,6 +65,7 @@ $(function () {
                     $("#pagewrapper").prepend(clone);
                 }
             }
+            $("#titlebartext").text("Low Priority Work Orders - " + $('div.jobdivouterclass').length);
             $("#JobID" + JobID + " > #jobdivinner > #JobTitle").text("Work Order: " + JobID);
             $("#JobID" + JobID + " > #jobdivinner > #JobDesc").text(JobDesc);
             $("#JobID" + JobID + " > #jobdivinner > #JobTime").text(JobDateTime);
